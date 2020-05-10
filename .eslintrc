@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "globals": {
+    "io": true,
+    "moment": true,
+    "Mustache": true,
+    "Qs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "plugins": ["import"],
+  "rules": {
+    "no-alert": "off",
+    "no-console": "off"
+  }
+}
